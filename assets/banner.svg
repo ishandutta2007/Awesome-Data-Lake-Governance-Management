@@ -1,0 +1,108 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 400" width="100%" height="100%">
+  <defs>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0f172a" />
+      <stop offset="50%" stop-color="#1e1b4b" />
+      <stop offset="100%" stop-color="#0f172a" />
+    </linearGradient>
+
+    <linearGradient id="titleGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#38bdf8" />
+      <stop offset="50%" stop-color="#818cf8" />
+      <stop offset="100%" stop-color="#c084fc" />
+    </linearGradient>
+
+    <linearGradient id="accentGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#06b6d4" stop-opacity="0.3" />
+      <stop offset="100%" stop-color="#6366f1" stop-opacity="0.1" />
+    </linearGradient>
+
+    <filter id="glow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="8" result="blur" />
+      <feComposite in="SourceGraphic" in2="blur" operator="over" />
+    </filter>
+  </defs>
+
+  <style>
+    .title { font-family: system-ui, -apple-system, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif; font-weight: 800; font-size: 46px; fill: url(#titleGrad); }
+    .subtitle { font-family: system-ui, -apple-system, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif; font-weight: 500; font-size: 20px; fill: #94a3b8; }
+    .tag { font-family: system-ui, -apple-system, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif; font-weight: 600; font-size: 13px; fill: #38bdf8; }
+    .node-text { font-family: system-ui, -apple-system, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif; font-weight: 600; font-size: 12px; fill: #e2e8f0; }
+    
+    @keyframes float1 { 0% { transform: translateY(0px); } 50% { transform: translateY(-10px); } 100% { transform: translateY(0px); } }
+    @keyframes float2 { 0% { transform: translateY(0px); } 50% { transform: translateY(12px); } 100% { transform: translateY(0px); } }
+    @keyframes pulseGlow { 0% { opacity: 0.3; } 50% { opacity: 0.7; } 100% { opacity: 0.3; } }
+    @keyframes dash { to { stroke-dashoffset: -40; } }
+
+    .animated-float1 { animation: float1 6s ease-in-out infinite; }
+    .animated-float2 { animation: float2 7s ease-in-out infinite; }
+    .animated-pulse { animation: pulseGlow 4s ease-in-out infinite; }
+    .animated-flow { stroke-dasharray: 8; animation: dash 3s linear infinite; }
+  </style>
+
+  <!-- Background Layer -->
+  <rect width="1200" height="400" fill="url(#bgGrad)" rx="16" />
+  
+  <!-- Subtle Grid Pattern in Background -->
+  <g opacity="0.08">
+    <path d="M0 50 H1200 M0 100 H1200 M0 150 H1200 M0 200 H1200 M0 250 H1200 M0 300 H1200 M0 350 H1200" stroke="#ffffff" stroke-width="1"/>
+    <path d="M100 0 V400 M200 0 V400 M300 0 V400 M400 0 V400 M500 0 V400 M600 0 V400 M700 0 V400 M800 0 V400 M900 0 V400 M1000 0 V400 M1100 0 V400" stroke="#ffffff" stroke-width="1"/>
+  </g>
+
+  <!-- Glowing background dynamic decorative orbs (placed safely behind text area) -->
+  <circle cx="150" cy="100" r="180" fill="#0284c7" filter="url(#glow)" class="animated-pulse" />
+  <circle cx="1050" cy="300" r="200" fill="#4f46e5" filter="url(#glow)" class="animated-pulse" />
+
+  <!-- DYNAMIC GRAPH & FLOW GRAPHICS (Right side offset to preserve text foreground visibility) -->
+  <g class="animated-float1">
+    <!-- Connecting flow lines -->
+    <path d="M 780 140 L 920 100 L 1060 160" stroke="#38bdf8" stroke-width="2" fill="none" opacity="0.6" class="animated-flow" />
+    <path d="M 780 260 L 920 280 L 1060 220" stroke="#818cf8" stroke-width="2" fill="none" opacity="0.6" class="animated-flow" />
+    <path d="M 920 100 L 920 280" stroke="#c084fc" stroke-width="2" fill="none" opacity="0.4" />
+
+    <!-- Node 1: Catalog -->
+    <g transform="translate(720, 110)">
+      <rect width="130" height="55" rx="10" fill="#1e293b" stroke="#0284c7" stroke-width="2" />
+      <text x="65" y="32" text-anchor="middle" class="node-text">📚 Data Catalog</text>
+    </g>
+
+    <!-- Node 2: Security & ABAC -->
+    <g transform="translate(860, 70)">
+      <rect width="130" height="55" rx="10" fill="#1e293b" stroke="#38bdf8" stroke-width="2" filter="url(#glow)"/>
+      <text x="65" y="32" text-anchor="middle" class="node-text">🛡️ Access Control</text>
+    </g>
+
+    <!-- Node 3: Lineage -->
+    <g transform="translate(1000, 130)">
+      <rect width="130" height="55" rx="10" fill="#1e293b" stroke="#818cf8" stroke-width="2" />
+      <text x="65" y="32" text-anchor="middle" class="node-text">🔗 Lineage</text>
+    </g>
+  </g>
+
+  <g class="animated-float2">
+    <!-- Node 4: Metadata -->
+    <g transform="translate(860, 250)">
+      <rect width="130" height="55" rx="10" fill="#1e293b" stroke="#c084fc" stroke-width="2" />
+      <text x="65" y="32" text-anchor="middle" class="node-text">📊 Metadata Engine</text>
+    </g>
+  </g>
+
+  <!-- Left Side: FOREGROUND CONTENT CARD (Completely clear of dynamic elements) -->
+  <!-- Tag Pill -->
+  <g transform="translate(80, 75)">
+    <rect width="270" height="32" rx="16" fill="url(#accentGrad)" stroke="#38bdf8" stroke-width="1"/>
+    <text x="135" y="21" text-anchor="middle" class="tag">⚡ AWESOME CURATED DIRECTORY</text>
+  </g>
+
+  <!-- Title & Subtitle (In crisp foreground layer) -->
+  <text x="80" y="155" class="title">Data Lake Governance</text>
+  <text x="80" y="210" class="title">&amp; Management</text>
+  
+  <text x="80" y="265" class="subtitle">Data Catalogs • Fine-Grained Access Control • Lineage • Metadata</text>
+  
+  <g transform="translate(80, 295)">
+    <text x="0" y="20" font-family="system-ui, sans-serif" font-size="14" fill="#64748b" font-weight="500">
+      Enterprise SaaS &amp; Open-Source Ecosystem Directory • Updated 2026
+    </text>
+  </g>
+</svg>
