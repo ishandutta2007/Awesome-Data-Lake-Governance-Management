@@ -7,7 +7,7 @@
 <p align="center">
   <a href="https://github.com/ishandutta2007/Awesome-Awesome-Awesome"><img src="https://img.shields.io/badge/Awesome-%E2%9C%94-blueviolet?style=flat-square&logo=github" alt="Awesome"/></a>
   <a href="https://discord.gg/jc4xtF58Ve"><img src="https://img.shields.io/badge/Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white" alt="Discord" /></a>
-  <a href="https://github.com/ishandutta2007/Awesome-Data-Lake-Governance-Management"><img src="https://img.shields.io/github/stars/ishandutta2007/Awesome-Data-Lake-Governance-Management?style=social" alt="GitHub Stars"/></a>
+  <a href="https://github.com/ishandutta2007/Awesome-Data-Lake-Governance-Management"><img src="https://img.shields.io/github/stars/ishandutta2007/Awesome-Data-Lake-Governance-Management?style=social" alt="GitHub_Stars"/></a>
   <a href="https://github.com/ishandutta2007/Awesome-Data-Lake-Governance-Management/fork"><img src="https://img.shields.io/github/forks/ishandutta2007/Awesome-Data-Lake-Governance-Management?style=social" alt="GitHub Forks"/></a>
   <a href="https://github.com/ishandutta2007/Awesome-Data-Lake-Governance-Management/blob/main/LICENSE"><img src="https://img.shields.io/github/license/ishandutta2007/Awesome-Data-Lake-Governance-Management?color=blue" alt="License"/></a>
   <a href="https://github.com/ishandutta2007"><img alt="GitHub followers" src="https://img.shields.io/github/followers/ishandutta2007?label=Follow" /></a>
@@ -26,12 +26,12 @@
 
 ### 📌 Overview & SEO Summary 🔍
 
-Welcome to the definitive curated directory of **data lake governance platforms**, **open-source data catalog tools**, **fine-grained access control (FGAC)** software, and **metadata management frameworks**. Whether you are evaluating hyperscaler-native governance suites (*AWS Lake Formation*, *Microsoft Purview*), lakehouse-integrated catalogs (*Databricks Unity Catalog*), enterprise metadata intelligence solutions (*Collibra*, *Alation*, *Atlan*), or self-hosted open-source alternatives (*LinkedIn DataHub*, *OpenMetadata*, *Apache Atlas*, *Apache Ranger*, *OpenLineage*, *Amundsen*), this ecosystem guide provides actionable metrics, star counts, exact pricing tiers, and market intelligence.
+Welcome to the definitive curated directory of **data lake governance platforms**, **open-source data catalog tools**, **fine-grained access control (FGAC)** software, and **metadata management frameworks**. Whether you are evaluating hyperscaler-native governance suites (*AWS Lake Formation*, *Microsoft Purview*), lakehouse-integrated catalogs (*Databricks Unity Catalog*), enterprise metadata intelligence solutions (*Collibra*, *Alation*, *Atlan*), or self-hosted open-source alternatives (*LinkedIn DataHub*, *OpenMetadata*, *Apache Atlas*, *Apache Ranger*, *OpenLineage*, *Amundsen*), this ecosystem guide provides actionable metrics, Stars_Counts, exact pricing tiers, and market intelligence.
 
 **Key Market Context:**
-- **DataHub (LinkedIn)** is the **most comprehensive open-source data catalog**, boasting **10.2K+ GitHub stars**, **50+ ingestion connectors**, real-time Kafka metadata streaming, and automated column lineage. 🚀
-- **CKAN** leads the **open data marketplace sector** with **4.1K+ GitHub stars**, powering public data portals for governments worldwide (data.gov, data.gov.uk). 🌍
-- **OpenMetadata** provides a **unified metadata architecture** with **5.2K+ GitHub stars**, offering column lineage, data quality profiling, and policy enforcement in one framework. 📋
+- **DataHub (LinkedIn)** is the **most comprehensive open-source data catalog**, boasting **10.2K+ GitHub_Stars**, **50+ ingestion connectors**, real-time Kafka metadata streaming, and automated column lineage. 🚀
+- **CKAN** leads the **open data marketplace sector** with **4.1K+ GitHub_Stars**, powering public data portals for governments worldwide (data.gov, data.gov.uk). 🌍
+- **OpenMetadata** provides a **unified metadata architecture** with **5.2K+ GitHub_Stars**, offering column lineage, data quality profiling, and policy enforcement in one framework. 📋
 - **Apache Ranger** remains the **de facto standard for Hadoop & big data access control**, with **1.8K+ stars** providing attribute-based access control (ABAC) and centralized audit logs. 🛡️
 
 ---
@@ -68,40 +68,40 @@ Welcome to the definitive curated directory of **data lake governance platforms*
 
 ## 🔓 Open-Source GitHub Projects 💻
 
-*Sorted by GitHub Stars Count (Descending)* 🌟
+*Sorted by GitHub_Stars_Count (Descending)* 🌟
 
 - **[DataHub (LinkedIn)](https://github.com/datahub-project/datahub)** [![Stars](https://img.shields.io/github/stars/datahub-project/datahub?style=social&color=white)](https://github.com/datahub-project/datahub/stargazers)  
-  **Open-source metadata platform for data discovery**, Apache-2.0 licensed. **10.2K+ GitHub stars** — **the most comprehensive open-source data catalog** . **Metadata ingestion from 50+ sources** — Snowflake, BigQuery, PostgreSQL, Kafka, dbt, Looker, and more . **Data lineage, governance, and discovery** . **Real-time metadata streaming** with Kafka . **The enterprise-grade open-source data marketplace foundation** . 🏢
+  **Open-source metadata platform for data discovery**, Apache-2.0 licensed. **10.2K+ GitHub_Stars** — **the most comprehensive open-source data catalog** . **Metadata ingestion from 50+ sources** — Snowflake, BigQuery, PostgreSQL, Kafka, dbt, Looker, and more . **Data lineage, governance, and discovery** . **Real-time metadata streaming** with Kafka . **The enterprise-grade open-source data marketplace foundation** . 🏢
 
 - **[OpenMetadata](https://github.com/open-metadata/OpenMetadata)** [![Stars](https://img.shields.io/github/stars/open-metadata/OpenMetadata?style=social&color=white)](https://github.com/open-metadata/OpenMetadata/stargazers)  
-  **Unified metadata platform for data discovery and governance**, Apache-2.0 licensed. **5.2K+ GitHub stars** — **100+ connectors** for databases, dashboards, pipelines, and messaging . **Data lineage, quality, and governance** in one platform . **Column-level lineage** and **data profiling** . **The most modern open-source data catalog** . 📋
+  **Unified metadata platform for data discovery and governance**, Apache-2.0 licensed. **5.2K+ GitHub_Stars** — **100+ connectors** for databases, dashboards, pipelines, and messaging . **Data lineage, quality, and governance** in one platform . **Column-level lineage** and **data profiling** . **The most modern open-source data catalog** . 📋
 
 - **[Apache Atlas](https://github.com/apache/atlas)** [![Stars](https://img.shields.io/github/stars/apache/atlas?style=social&color=white)](https://github.com/apache/atlas/stargazers)  
-  **Metadata and governance framework for Hadoop**, Apache-2.0 licensed. **4.8K+ GitHub stars** — **the most widely deployed open-source governance platform** in Hadoop ecosystems . **Native Apache Ranger integration** for **fine-grained access control** . **Data classification, lineage, and search** . **The foundation for enterprise Hadoop governance** . 🏛️
+  **Metadata and governance framework for Hadoop**, Apache-2.0 licensed. **4.8K+ GitHub_Stars** — **the most widely deployed open-source governance platform** in Hadoop ecosystems . **Native Apache Ranger integration** for **fine-grained access control** . **Data classification, lineage, and search** . **The foundation for enterprise Hadoop governance** . 🏛️
 
 - **[Amundsen (Lyft)](https://github.com/amundsen-io/amundsen)** [![Stars](https://img.shields.io/github/stars/amundsen-io/amundsen?style=social&color=white)](https://github.com/amundsen-io/amundsen/stargazers)  
-  **Data discovery and metadata engine**, Apache-2.0 licensed. **4.2K+ GitHub stars** — **data catalog with search and lineage** . **Neo4j / JanusGraph graph for relationship mapping** . **Used by Lyft, ING, and enterprise teams** . **The pioneer open-source data discovery engine** . 🔍
+  **Data discovery and metadata engine**, Apache-2.0 licensed. **4.2K+ GitHub_Stars** — **data catalog with search and lineage** . **Neo4j / JanusGraph graph for relationship mapping** . **Used by Lyft, ING, and enterprise teams** . **The pioneer open-source data discovery engine** . 🔍
 
 - **[CKAN](https://github.com/ckan/ckan)** [![Stars](https://img.shields.io/github/stars/ckan/ckan?style=social&color=white)](https://github.com/ckan/ckan/stargazers)  
-  **Open-source data portal platform**, AGPL-3.0 licensed. **4.1K+ GitHub stars** — **the standard for open data portals** — powers **data.gov, data.gov.uk, and hundreds of government catalog portals** . **Dataset publishing, geospatial search, and REST APIs** . 🌍
+  **Open-source data portal platform**, AGPL-3.0 licensed. **4.1K+ GitHub_Stars** — **the standard for open data portals** — powers **data.gov, data.gov.uk, and hundreds of government catalog portals** . **Dataset publishing, geospatial search, and REST APIs** . 🌍
 
 - **[Marquez (WeWork)](https://github.com/MarquezProject/marquez)** [![Stars](https://img.shields.io/github/stars/MarquezProject/marquez?style=social&color=white)](https://github.com/MarquezProject/marquez/stargazers)  
-  **Open-source metadata service for data lineage**, Apache-2.0 licensed. **2.2K+ GitHub stars** — **collects, aggregates, and visualizes data lineage** . **Reference implementation for OpenLineage standard** . **The standard for open-source data lineage observability** . 🔗
+  **Open-source metadata service for data lineage**, Apache-2.0 licensed. **2.2K+ GitHub_Stars** — **collects, aggregates, and visualizes data lineage** . **Reference implementation for OpenLineage standard** . **The standard for open-source data lineage observability** . 🔗
 
 - **[OpenLineage](https://github.com/OpenLineage/OpenLineage)** [![Stars](https://img.shields.io/github/stars/OpenLineage/OpenLineage?style=social&color=white)](https://github.com/OpenLineage/OpenLineage/stargazers)  
-  **Data lineage collection specification and framework**, Apache-2.0 licensed. **2.1K+ GitHub stars** — **vendor-neutral lineage metadata** for Spark, Airflow, dbt, Great Expectations, and Flink . **The observability standard** for data pipelines . 📊
+  **Data lineage collection specification and framework**, Apache-2.0 licensed. **2.1K+ GitHub_Stars** — **vendor-neutral lineage metadata** for Spark, Airflow, dbt, Great Expectations, and Flink . **The observability standard** for data pipelines . 📊
 
 - **[Apache Ranger](https://github.com/apache/ranger)** [![Stars](https://img.shields.io/github/stars/apache/ranger?style=social&color=white)](https://github.com/apache/ranger/stargazers)  
-  **Centralized security framework for Hadoop & Big Data**, Apache-2.0 licensed. **1.8K+ GitHub stars** — **the standard open-source data access control platform** . **Fine-grained authorization** for HDFS, Hive, HBase, Kafka, Trino, and Spark . **Centralized policy management** with audit logging . 🛡️
+  **Centralized security framework for Hadoop & Big Data**, Apache-2.0 licensed. **1.8K+ GitHub_Stars** — **the standard open-source data access control platform** . **Fine-grained authorization** for HDFS, Hive, HBase, Kafka, Trino, and Spark . **Centralized policy management** with audit logging . 🛡️
 
 - **[Magda](https://github.com/magda-io/magda)** [![Stars](https://img.shields.io/github/stars/magda-io/magda?style=social&color=white)](https://github.com/magda-io/magda/stargazers)  
-  **Open-source cloud-native data catalog for government and enterprise**, Apache-2.0 licensed. **600+ GitHub stars** — **federated data catalog** with automatic metadata enrichment, geospatial search, and dataset authorization across public/private sectors . 🏛️
+  **Open-source cloud-native data catalog for government and enterprise**, Apache-2.0 licensed. **600+ GitHub_Stars** — **federated data catalog** with automatic metadata enrichment, geospatial search, and dataset authorization across public/private sectors . 🏛️
 
 - **[DataHub (Acryl)](https://github.com/acryldata/datahub)** [![Stars](https://img.shields.io/github/stars/acryldata/datahub?style=social&color=white)](https://github.com/acryldata/datahub/stargazers)  
   **Cloud-native metadata platform**, Apache-2.0 licensed. **Commercial distribution & cloud core** for LinkedIn DataHub from Acryl Data . **Enterprise metadata management** with enterprise support . ☁️
 
 - **[Kylo (Teradata)](https://github.com/Teradata/kylo)** [![Stars](https://img.shields.io/github/stars/Teradata/kylo?style=social&color=white)](https://github.com/Teradata/kylo/stargazers)  
-  **Enterprise data lake management software**, Apache-2.0 licensed. **500+ GitHub stars** — **data ingestion, self-service data wrangling, and governance** . **Built on Apache Spark and Apache NiFi** . 🎯
+  **Enterprise data lake management software**, Apache-2.0 licensed. **500+ GitHub_Stars** — **data ingestion, self-service data wrangling, and governance** . **Built on Apache Spark and Apache NiFi** . 🎯
 
 - **[Apache Governance Engine / Falcon (Archived)](https://github.com/apache/falcon)** [![Stars](https://img.shields.io/github/stars/apache/falcon?style=social&color=white)](https://github.com/apache/falcon/stargazers)  
   **Data governance and data pipeline management framework for Hadoop**, Apache-2.0 licensed. **Historical reference for Hadoop data lifecycle governance, retention policies, and SLA tracking** . 📦
@@ -114,7 +114,7 @@ Contributions are welcome! Follow these simple steps to submit new data lake gov
 
 1. 🍴 **Fork** this repository.
 2. 📝 **Add/edit** entries in `README.md` while preserving formatting standards.
-3. 🔗 Ensure exact repo links, GitHub star badges (`style=social&color=white` linking to `/stargazers`), license type, and concise descriptions are included.
+3. 🔗 Ensure exact repo links, GitHub Stars_Badges (`style=social&color=white` linking to `/stargazers`), license type, and concise descriptions are included.
 4. 🚀 Submit a **Pull Request** with a brief summary of added software.
 
 ---
@@ -139,7 +139,7 @@ If you find this data lake governance and management repository useful, please c
 
 - This is a **community-curated directory** — not exhaustive and not a formal product endorsement. ℹ️
 - **AWS Lake Formation and Databricks Unity Catalog provide fine-grained access control** at table, column, and row level . **Apache Ranger is the standard for Hadoop security governance** with **native Atlas integration** .
-- **DataHub and OpenMetadata are the leading open-source data catalogs** — **DataHub has 10K+ GitHub stars and 50+ ingestion sources** . **OpenMetadata provides 100+ connectors** and **unified metadata management** .
+- **DataHub and OpenMetadata are the leading open-source data catalogs** — **DataHub has 10K+ GitHub_Stars and 50+ ingestion sources** . **OpenMetadata provides 100+ connectors** and **unified metadata management** .
 - **Open-source governance tools are not turnkey** — they require **deployment, metadata ingestion configuration, and ongoing maintenance** . **Apache Atlas requires HBase and Solr** . **DataHub requires Kafka, Elasticsearch, and MySQL/PostgreSQL** . **Always validate access controls and lineage accuracy with a proof-of-concept** before production deployment . 🏞️
 
 ---
